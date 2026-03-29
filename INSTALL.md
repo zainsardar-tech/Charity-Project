@@ -1,4 +1,4 @@
-# 🚀 Installation Guide
+# Installation Guide
 
 Because this Charity Admin System is designed to operate 100% locally and offline, the installation revolves entirely around compiling a native Flutter Desktop application.
 
