@@ -1,4 +1,4 @@
-# 🤝 Contributing to the Administrator System
+# Contributing to the Administrator System
 
 First off, thanks for taking the time to contribute to the **Pakistan-Based Blind Welfare Charity Admin System**! 🎉
 
@@ -7,7 +7,7 @@ Because this software is built explicitly for managing sensitive offline records
 ## 🛠 Setting up your Machine
 Please see the [`INSTALL.md`](INSTALL.md) file to locally configure the Flutter Offline-Target Desktop toolchain on your respective Linux or Windows workstation.
 
-## 🌳 Branching Strategy
+## Branching Strategy
 We follow a very standard `GitHub Flow`:
 1. **Fork** the repository and clone your fork locally.
 2. checkout a new `feature/` or `bugfix/` branch off `main`.
@@ -20,5 +20,5 @@ If your contribution requires altering a database table or adding entirely new t
 2. Do **NOT** manually edit `lib/database/database.g.dart` output files under any circumstances! They are generated mechanically by Drift.
 3. You must execute `dart run build_runner build` locally so Drift natively rebuilds the specific SQL mapping constraints before you push your commits.
 
-## 🐞 Bugs & Vulnerabilities
+## Bugs & Vulnerabilities
 If you notice a problem with the SQLite native interactions, or the Internal Alert popups stop spawning globally off the stream channels, please open an Issue with reproducible steps prioritizing logs exported cleanly from the `Audit & Reports` offline modules.
